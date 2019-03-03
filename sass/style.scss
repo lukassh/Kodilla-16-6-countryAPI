@@ -1,0 +1,64 @@
+body {
+	background: tomato;
+}
+
+body>h1 {
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+button {
+	width: 200px;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	background: #576574;
+	color: #fff;
+	font-size: 14px;
+}
+button:hover {
+	border: 1px solid black;
+}
+input[type='text'] {
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+h2 {
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+ul {
+	list-style-type: none;
+	li {
+		header {
+			font-size: 20px;
+			color: tomato;
+			border-bottom: 2px solid tomato;
+		}
+		.col {
+			padding-top: 20px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			p:first-child {
+				width: 30%;
+				flex: 1;
+			}
+			p:nth-child(2) {
+				flex: 3;
+			}
+		}
+		
+		width: 500px;
+		height: 100%;
+		background: #fff;
+		padding: 20px;
+	}
+}
+
